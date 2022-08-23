@@ -21,7 +21,7 @@ function modelLoaded() {
     console.log('model Loaded');
 }   
 
-function check() {
+function indentify() {
     img = document.getElementById('captured_image');
     classifier.classify(img, gotResult);
 }
